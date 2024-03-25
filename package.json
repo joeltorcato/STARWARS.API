@@ -1,0 +1,11 @@
+{
+  "name": "star-wars-api",
+  "version": "1.0.0",
+  "description": "star wars api developed in node.js with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joel fernandes",
+  "license": "ISC"
+}

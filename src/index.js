@@ -13,8 +13,9 @@ const Film = mongoose.model('Film', {
   trailerUrl: String
 })
 
-app.get('/', function (req, res) {
-  res.send('hello world')
+app.get('/', async (req, res) => {
+  const films = await Film.find()
+  res.send(films)
 })
 
 app.post('/', async (req, res) => {
